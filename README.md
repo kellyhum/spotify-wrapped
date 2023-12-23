@@ -1,2 +1,2 @@
 # one year wrapped
-> turning my spotify data into a data visuzliation project
+> turning my spotify data into a data visualization project
