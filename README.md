@@ -1,10 +1,19 @@
 # spotify wrapped
 > turning my spotify data into a data visualization project
 
-currently: answering guiding questions 
-todo: change the column name for top 5 artists, convert minutes to hours if time, answer other questions
+currently: 
+- answering guiding questions 
+todo: 
+- change the column name for top 5 artists
+- convert minutes to hours if time
+- answer other questions
+- fix data preprocessing so that it's more cohesive instead of scattered across the project
 
-notes:
-- data cleaning should also filter for songs only, drop podcasts
-    - how do you distinguish between podcasts and songs?
-- also should combine duplicate songs 
+workflow
+- data preprocessing/cleaning
+    - songs only (basically removing outliers)
+    - year 2023 (depending on guiding questions)
+    - combine duplicate songs (not doing so affects the msPlayed data)
+- data analysis
+    - dropping, reordering columns, etc
+    - potentially some regression models, etc
